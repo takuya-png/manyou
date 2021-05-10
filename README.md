@@ -17,11 +17,11 @@
 |limit	 |date	 |               |     |
 |status	 |string |	             |     |
 |priority|string |	             |     |
-|user_id |integer|belongs_to user|  ○  |
+|user_id |integer|belongs_to user|   ○ |
 
 ####3. Labelモデル
 
 |column	   |type	 |association	  |index|
 |----------|-------|--------------|-----|
 |label_name|string |		          |     |
-|task_id	 |integer|has_many tasks|	 ○  |
+|task_id	 |integer|has_many tasks|	  ○ |
