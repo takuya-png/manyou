@@ -6,7 +6,8 @@
 
 |column	  |type	 |association|index|
 |---------|------|-----------|-----|
-|user_name|string|has_many   |tasks|	
+|user_name|string|has_many   |tasks|
+
 ####2. Taskモデル
 
 |column  |type   |association    |index|
